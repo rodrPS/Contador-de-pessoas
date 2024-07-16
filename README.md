@@ -25,5 +25,5 @@ Este projeto utiliza um Raspberry Pi com uma câmera embutida para monitorar uma
 3. Execute o script principal:
 
 ```bash
-> python contador_de_pessoas.py
+python contador_de_pessoas.py
 ```
