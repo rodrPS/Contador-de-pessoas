@@ -33,5 +33,5 @@ source venv/bin/activate
 4. Execute o script principal:
 
 ```bash
-python contador_de_pessoas.py
+make
 ```
