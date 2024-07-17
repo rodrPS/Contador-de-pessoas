@@ -16,13 +16,21 @@ Este projeto utiliza um Raspberry Pi com uma câmera embutida para monitorar uma
 ## Como usar
 
 1. Clone este repositório para o seu Raspberry Pi.
-2. Instale as dependências executando o seguinte comando:
+2. Crie e incie um ambiente virtual a partir dos seguintes comandos:
+
+```bash
+python3 -m venv venv
+
+source venv/bin/activate
+```
+
+3. Instale as dependências executando o seguinte comando:
 
 ```bash
  pip install -r requirements.txt
 ```
 
-3. Execute o script principal:
+4. Execute o script principal:
 
 ```bash
 python contador_de_pessoas.py
