@@ -1,5 +1,7 @@
 run:
-    python3 -m main.py
+	python3 -m main
 
 clean:
-    find . -regex '^.*(__pycache__|\.py[co])$' -delete
+	find . -type d -name '__pycache__' -exec rm -rf {} +
+
+.PHONY: run clean
